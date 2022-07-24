@@ -53,6 +53,7 @@ export default {
       this.page = page;
       this.loading = true;
       const { data } = await api.getTopRated(this.page);
+      console.log(data);
       this.movies = await Promise.all(
         data.results.map((movie) => this.getMovie(movie.id))
       );

@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // apiKey necesaria para realizar consultas en TheMovieDB
-const apiKey = '9fb98527ed4b2f39026a8ba4ff0e1683';
+const apiKey = 'a825578c0f6eac48773a617eccb56651';
 
 // URL base de la API
 const baseURL = `https://api.themoviedb.org/3/movie/`;
@@ -27,7 +27,7 @@ class ApiService {
     // Retorna una película en específico (según su id)
     getMovie(movieId) {
         return this.resource.get(`${movieId}?${this.apiKey}`);
-//https://api.themoviedb.org/3/movie/10?api_key=9fb98527ed4b2f39026a8ba4ff0e1683&language=en-US
+//https://api.themoviedb.org/3/movie/436969?api_key=9fb98527ed4b2f39026a8ba4ff0e1683&language=en-US
     }
 }
 
