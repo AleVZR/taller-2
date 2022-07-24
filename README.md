@@ -1,5 +1,5 @@
 # taller-2
-* Realización del Taller 2 de la asignatura Especialización Tecnológica 2.
+* Realización del Taller 2 de la asignatura Especialización Tecnológica 1.
 
 ## Project setup
 ```
